@@ -6,6 +6,10 @@ class Tile extends React.Component{
     this.props.onClick(event, this.props.value)
   }
 
+  // Note here that 'symbol' can be any name and refers to the 
+  // symbol defined in render of Board.js. It is the 'X' or 'O'
+  // in the tile
+
   render(){
     console.log(this.props.value)
     return(
